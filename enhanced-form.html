@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Form</title>
+    
+ <h1>Mobless Cleaning Services</h1>
+ <h3>Book for your cleaning today</h3>
+ <list>
+    <ol>
+        <li>residential cleaning</li>
+        <li>commercial cleaning</li>
+        <li>post construction cleaning</li>
+        <li>window cleaning</li>
+        <li>move in/move out cleaning</li>
+    </ol>
+    <ol list type="A">
+        <li>contact us</li>
+        <li>about us</li>
+        <li>services</li>
+        <li>book now</li>
+        <li>testimonials</li>
+    </ol>
+    <ul>
+        <li>facebook</li>
+        <li>instagram</li>
+        <li>twitter</li>
+        <li>linkedin</li>
+        <li>youtube</li>
+    </ul>
+    <ul list type="square">
+        <li>cleaning tips</li>
+        <li>special offers</li>
+        <li>customer reviews</li>
+        <li>blog</li>
+        <li>faq</li>
+ </list>
+<tables>
+    <table border="1">
+        <tr>
+            <th>Service</th>
+            <th>Price</th>
+            <th>Duration</th>
+        </tr>
+        <tr>
+            <td>Residential Cleaning</td>
+            <td>$100</td>
+            <td>2 hours</td>
+        </tr>
+        <tr>
+            <td>Commercial Cleaning</td>
+            <td>$200</td>
+            <td>4 hours</td>
+        </tr>
+        <tr>
+            <td>Post Construction Cleaning</td>
+            <td>$300</td>
+            <td>6 hours</td>
+        </tr>
+        <tr>
+            <td>Window Cleaning</td>
+            <td>$150</td>
+            <td>3 hours</td>
+        </tr>
+        <tr>
+            <td>Move In/Move Out Cleaning</td>
+            <td>$250</td>
+            <td>5 hours</td>
+        </tr>
+    </table>
+</tables>
+<br>
+<h4>our cleaning image</h4>
+
+<img src="house cleaning.jpg" alt="Cleaning Service" width="300" height="200">
+
+
+<h4> Do it yourself hack video</h4>
+<video controls width="300" height="200">
+    <source src="DIY cleaning hacks.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+
+</video>
+
+<h4>book your cleaning today</h4>
+<form action="/submit-booking" method="post">
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <label for="service">Select Service:</label><br>
+    <select id="service" name="service" required>
+        <option value="">--Please choose an option--</option>
+        <option value="residential">Residential Cleaning</option>
+        <option value="commercial">Commercial Cleaning</option>
+        <option value="post-construction">Post Construction Cleaning</option>
+        <option value="window">Window Cleaning</option>
+        <option value="move-in-out">Move In/Move Out Cleaning</option>
+    </select><br><br>
+
+    <label for="date">Preferred Date:</label><br>
+    <input type="date" id="date" name="date" required><br><br>
+
+    <label for="time">Preferred Time:</label><br>
+    <input type="time" id="time" name="time" required><br><br>
+
+    <label for="notes">Additional Notes:</label><br>
+    <textarea id="notes" name="notes" rows="4" cols="50"></textarea><br><br>
+
+    <input type="submit" value="Book Now">
